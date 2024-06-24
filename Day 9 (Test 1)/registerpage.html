@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body bgcolor="lightblue">
+		<h1 align="center"> Register Page</h1>
+		<br>
+		<fieldset>
+			<legend><h2>Register Form</h2></legend>
+		<table align="center"border="3" width="60%" height="50%" cellspacing="30px" cellpadding="20px" bgcolor="lightgreen">
+			<form action="blog.html" target="_blank" method="post">
+			<tr>
+				<td bgcolor="lightgreen">
+					<label for="fname">First Name: </label>
+				</td>
+				<td bgcolor="lightgreen">
+					<input type="text" placeholder="Enter First Name" id="fname" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="lname">Last Name: </label>
+				</td>
+				<td>
+					<input type="text" placeholder="Enter Last Name" id="lname" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="age">Age: </label>
+				</td>
+				<td>
+					<input type="number" placeholder="Enter your age" id="age" required>
+				</td>
+			</tr>
+			<tr>
+    		<td rowspan="2"><label for="gender">Gender:</label></td>
+    		<td><input type="radio" id="gender" value="male" name="gender"> Male</td>
+  		</tr>
+  		<tr>
+    		<td><input type="radio" id="gender" value="female" name="gender"> Female</td>
+  		</tr>
+			<tr>
+    		<td rowspan="3"><label for="hobbies">Hobbies</label></td>
+    		<td><input type="checkbox" id="hobbies" value="playing"> Playing</td>
+  		</tr>
+  		<tr>
+    		<td><input type="checkbox" id="hobbies" value="eating"> Eating</td>
+  		</tr>
+  		<tr>
+    		<td><input type="checkbox" id="hobbies" value="sleeping"> Sleeping</td>
+  		</tr>
+			<tr>
+				<td>
+					<label for="tel"> Mobile Number: </label>
+				</td>
+				<td>
+					<input type="number" id="tel" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="email"> Email Id: </label>
+				</td>
+				<td>
+					<input type="email" id="email" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="pass"> Password: </label>
+				</td>
+				<td>
+					<input type="password" id="pass" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="cpass"> Confirm Password: </label>
+				</td>
+				<td>
+					<input type="password" id="cpass" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+			<label for="optionselect">Select your State : </label></td>
+			<td>
+			<select id="optionselect">
+				<option value="ap">Telangana</option>
+				<option value="tg">Andhra Pradesh</option>
+				<option value="Arp">Arunachal Pradesh</option>
+				<option value="ka">Karnataka</option>
+				<option value="tn">Tamil Nadu</option>
+			</select>
+		</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="desc">Description: </label>
+			</td>
+			<td>
+			<textarea rows="10" cols="20">
+				Enter Description
+			</textarea>
+		</td>
+		</tr>
+		<tr>
+						<td >
+			
+					<label for="fav fruit">Fav Fruit:</label>
+				</td>
+				<td>
+
+				
+					<input type="text" id="fav fruit">
+				</td>
+			</tr>
+			<tr>
+				<td  align="left"> <input type="submit"> </td>
+				<td align="right"> <input type="Reset"></td>
+			</tr>
+		</form>
+			
+		</table>
+	</fieldset>
+
+
+
+</body>
+</html>

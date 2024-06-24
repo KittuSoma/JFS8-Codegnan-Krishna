@@ -1,0 +1,47 @@
+.a{
+	background-color: lightgreen;
+	height: 40px;
+	width: 40%;
+	border: solid;
+	border-color: red;
+	border-width: 5px;
+	border-bottom-color: blue;
+	border-top-color: orange;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10%;
+}
+.b{
+	background-color: lightgreen;
+	height: 40px;
+	width: 40%;
+	border: solid;
+	border-color: red;
+	border-width: 5px;
+	border-bottom-color: blue;
+	border-top-color: orange;
+	padding: 20px;
+	margin: 30px;
+	border-radius: 10px;
+}
+.c{
+	background-color: lightgreen;
+	height: 40px;
+	width: 40%;
+	border: solid;
+	border-color: red;
+	border-width: 5px;
+	border-bottom-color: blue;
+	border-top-color: orange;
+	padding: 20px;
+	margin: 30px;
+	text-align: center;
+	align-content: center;
+	box-shadow: 10px 10px orange;
+}
+.d{
+	background-color: green;
+	height: 30px;
+	width: 30%
+	border: solid;
+}
